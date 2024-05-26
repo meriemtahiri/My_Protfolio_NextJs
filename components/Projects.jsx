@@ -2,6 +2,7 @@ import React from 'react';
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import docApp from '../public/assets/projects/docApp.png'
 import game from '../public/assets/projects/game.png'
+import digibank from '../public/assets/projects/digibank.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -29,8 +30,15 @@ const Projects = () => {
           <ProjectItem
             title='The Girl Warrior'
             backgroundImg={game}
-            projectUrl='/game'
+            projectUrl='/digibank'
             tech='Java'
+          />
+
+            <ProjectItem
+            title='Digital Bank'
+            backgroundImg={digibank}
+            projectUrl='/digibank'
+            tech='Spring | Angular'
           />
 
         </div>

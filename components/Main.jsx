@@ -28,11 +28,11 @@ const Main = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
-          <h1 className='py-4 text-gray-700'>
+          <h1 className='py-1 text-gray-700'>
             Hi, I&#39;m <span className='text-[#51aae5]'> Meriem</span>
           </h1>
           <h1 className='py-2 text-gray-700'>Software Engineering student</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] mb-4 m-auto'>
+          <p className='py-4 text-gray-600 sm:max-w-[70%] mb-1 m-auto'>
             I’m focused on building web applications
             using <b>NodeJs </b>and <b>ReactJs/NextJs</b>.
           </p>
@@ -45,14 +45,14 @@ const Main = () => {
               duration: 0.2,
             }}
         >
-          <div className="flex flex-col space-y-4">
-          <a href="assets/CV_Meriem TAHIRI.pdf" download="CV_Meriem TAHIRI.pdf">
+          <div className="flex flex-col space-y-2">
+          <a href="assets/Essays_TAHIRI_Meriem.pdf" download="Essays_Meriem_TAHIRI.pdf">
               <button>Download Essays</button>
             </a>
             <a href="assets/CV_Meriem TAHIRI.pdf" download="CV_Meriem TAHIRI.pdf">
               <button>Download Resume</button>
             </a>
-            <a href="assets/Cover Letter.pdf" download="Cover Letter.pdf">
+            <a href="assets/Cover Letter.pdf" download="Cover Letter_Meriem TAHIRI.pdf">
               <button>Download Cover Letter</button>
             </a>
           </div>
